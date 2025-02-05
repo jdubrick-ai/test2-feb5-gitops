@@ -1,0 +1,6 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test2-feb5-model-config
+data:
+  MODEL_ENDPOINT: "http://test2-feb5-model-server:8001"
